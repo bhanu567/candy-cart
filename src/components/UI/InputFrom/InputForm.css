@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+form {
+  margin: 1vw 3vh;
+}
+input {
+  height: 4vh;
+  width: 15vw;
+  margin-right: 40px;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+input:focus{
+  outline: 1px solid black;
+}
+label {
+  font-weight: bold;
+  font-size: larger;
+}
+button {
+  font-weight: bold;
+  border-radius: 4px;
+  border: 2px solid black;
+  padding: 4px 20px;
+  margin-left: 15px;
+  cursor: pointer;
+}

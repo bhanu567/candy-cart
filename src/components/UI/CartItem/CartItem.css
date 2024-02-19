@@ -1,0 +1,120 @@
+#backdropcss {
+  left: 0;
+  right: 0;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 10;
+  cursor: pointer;
+}
+
+#portal {
+  top: 30vh;
+  left: 30vw;
+  position: fixed;
+  height: fit-content;
+  width: 40%;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 20px;
+  z-index: 100;
+}
+#h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 2%;
+}
+#button {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+#order,
+#close {
+  padding: 10px 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+#close {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+}
+#close:hover {
+  color: white;
+  background-color: black;
+}
+#order {
+  color: white;
+  background-color: black;
+}
+
+#item_name {
+  width: 100%;
+  font-size: larger;
+  font-weight: bolder;
+}
+#item_count {
+  border: 1px solid black;
+  border-radius: 3px;
+  font-size: small;
+  padding: 3px 10px;
+  font-weight: bold;
+}
+#item_price {
+  width: 30%;
+  color: black;
+  font-weight: bolder;
+}
+#total_price {
+  margin-right: 10%;
+  color: black;
+}
+#overall {
+  display: flex;
+  flex-direction: row;
+}
+#content {
+  margin: 2%;
+  width: 70%;
+}
+#inner_contnt {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+#button_increase_decrease {
+  width: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#button_decrease,
+#button_increase {
+  margin-top: 30%;
+  margin-right: 10%;
+  width: 60%;
+  height: 30%;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: transparent;
+  color: black;
+  justify-content: center;
+  padding-top: 1px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+#button_increase {
+  color: white;
+  background-color: black;
+}
+hr {
+  margin-left: 2%;
+  color: black;
+  width: 98%;
+}
